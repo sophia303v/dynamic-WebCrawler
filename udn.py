@@ -1,3 +1,14 @@
+'''
+    ******
+        2018/ 04/28 by Sophia Hsu
+    ******
+    It's a web-crawler using selenium to automatically scroll the page to load enough numbers of news.
+    my_url is the news list in udn.com in some catagory.
+    Before you use it, you need to download a driverFile for firefox or chrome.
+    selenium will open a driver (firefox or chrome) and open the page, and fetch link and scroll down and fetch link... 
+    After fetch all news links we need, use BeautifulSoup to get content you need. ( also can use selenium) 
+    Then get the specific block you needs, and Output it in JSON.
+'''
 from selenium import webdriver
 from time import sleep
 
