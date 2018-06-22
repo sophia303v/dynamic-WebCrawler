@@ -17,6 +17,6 @@ Then get the specific block you need, and output it in JSON. <br>
 
 <h3> mobile01.py </h3>
 It's a simple static web-crawler. Fetch the data in udn. Use beautifulSoup. Output as JSON. <br>
-BeautifulSoup will have a stange problem that it will disconnected sometimes. <br>
+BeautifulSoup will have a strange problem that it will be disconnected sometimes. <br>
 If it disconnected, just look the articlesNum printed on console. And modified the "articleNum" parameter in this file
 and then it can continue to fetch the next following articles. <br>
