@@ -1,3 +1,14 @@
+'''
+    ******
+        2018/ 04/ 28 by Sophia
+    ******
+    It's a simple static web-crawler. Fetch the data in udn. Use beautifulSoup. Output as JSON.
+    BeautifulSoup will have a stange problem that it will disconnected sometimes.
+    If it disconnected, just look the articlesNum printed on console. And modified the "articleNum" parameter in this file
+    and then it can continue to fetch the next following articles.
+'''
+
+
 # encoding:utf-8
 
 import requests 
