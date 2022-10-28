@@ -1,6 +1,6 @@
 # dynamic-WebCrawler
 
-I tried to fetch a webpage using React.I found selenium can help me do this.<br>
+When I tried to fetch a webpage using React, I found selenium can help me do this.<br>
 The mechanism is that selenium can automatically open a browser and "use" it. <br>
 Hence, we can wait for the browser until it finishes rendering the components. We can successfully get the content in those components we want. <br>
 However, at the end I turned to fetch another dynamic page which using simpler language than React. XD <br>
