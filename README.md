@@ -15,6 +15,6 @@ Then get the specific block you need, and output it in JSON. <br>
 
 <h3> mobile01.py </h3>
 It's a simple static web-crawler. Fetch the data in mobile01. Use beautifulSoup. Output as JSON. <br>
-I encounter strange problems when using BeautifulSoup.It will disconnect sometimes. <br>
-If it disconnected, just look the articlesNum printed on console. And modified the "articleNum" parameter in this file
-and then it can continue to fetch the next following articles. <br>
+I encounter strange problems when using BeautifulSoup. It will disconnect sometimes. <br>
+If it disconnected, just read the articlesNum printed on console and modified the "articleNum" parameter in this file.
+Then, it can continue to fetch the next following articles. <br>
